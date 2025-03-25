@@ -1,0 +1,129 @@
+.satisfy-regular {
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  body{
+    background-color: rgb(255, 255, 255);
+    margin: 0%;
+    padding: 0%;
+    
+  }
+  .header{
+    text-align: center;
+  }
+  nav a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(0, 0, 0);
+  font-size: 40px;
+  text-decoration: white;
+  padding: 10px;
+  
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+.logo{
+  width: 100px;
+}
+  main{
+    background-color: white;
+    color: black;
+}
+ 
+
+  footer{
+    text-align: center;
+    padding: 20px;
+    background-color: lightgray;
+}
+img{
+    width: 150px;
+}
+.card{
+    margin: 20px;
+    width: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 5px 10px #ccc;
+    font-family: "Big Shoulders Inline", sans-serif;
+}
+.card img{
+    width: 100%;
+}
+.card h1{
+    text-align: center;
+    font-size: 25px;
+    color: darkblue;
+}
+.card h2{
+    font-size: 15px;
+}
+.card-content{
+    padding: 35px;
+    text-align: center;
+}
+.tarjeta{
+    display :flex;
+    justify-content: center;
+}
+.card:hover{
+    background-color: rgb(238, 234, 241);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0);
+    transform: scale(1.05);
+}
+
+.perfume{
+  display :flex;
+    justify-content: center;;
+}
+p{
+  text-decoration: rgb(0, 0, 0);
+  font-size: 20px;
+}
+h1{
+  text-align: center;
+}
+
+
+
+
+.tarjetas{
+  display :flex;
+  justify-content: center;
+}
+.cartas{
+  margin: 20px;
+  width: 2000px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0px 5px 10px #ccc;
+  font-family: "Big Shoulders Inline", sans-serif;
+}
+.cartas-content{
+  padding: 35px;
+  text-align: center;
+}
+.cartas img{
+  width: 800px;
+}
+.cartas-content p{
+  color: white;
+}
+.cartas-content h1{
+  color: white;
+}
+.cartas-content h2{
+  color: white;
+}
+.primer{
+  background-color: blue;
+  margin: 100px;
+}
